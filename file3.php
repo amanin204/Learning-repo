@@ -1,0 +1,2 @@
+
+Integer.parseInt() is an in-built function in Java to parse a string into a number system specified by the radix value(2nd argument of the method). In this approach, the input of the Octal number will be taken as a string. The octal string will be parsed into an integer value of octal number system. Further, the octal number will be converted into its binary equivalent using another inbuilt method Integer.toBinaryString(). The resultant value will also be of string datatype. Below is the implementation.
