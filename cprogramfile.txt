@@ -1,0 +1,6 @@
+
+This method involves complete mathematical calculations to obtain the desired result. The input of the Octal number will be taken as an integer. Further, it is first converted into its decimal equivalent value and then from a decimal number to its binary equivalent using mathematical operations. Below is the implementation of this approach.
+
+
+
+
