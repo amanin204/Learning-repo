@@ -1,0 +1,4 @@
+
+A dependency is a connection between a Maven project and an artifact. Maven will add the artifact to one or more of the project's classpaths or otherwise use it when building the project. A dependency includes the artifact coordinates (group ID, artifact ID, and version) and metadata about how the artifact is used by the project. This metadata includes the scope in which the artifact is added to the classpath and whether the artifact is required or optional. Different projects can have dependencies on the same artifact with different scopes and optionality. That is, a dependency is a property of a project, not an artifact.
+
+A dependency is defined by a dependency element in the project's pom.xml file. The child elements of the dependency specify the coordinates of the artifact to depend on and the scope in which that dependency applies. Consider this dependency element:
